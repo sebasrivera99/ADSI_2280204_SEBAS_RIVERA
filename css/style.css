@@ -15,4 +15,26 @@ h1{
 }
 .estilo-italico {
     font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
 }
+.uente-pattallaf {
+    font-family: 'Pattaya', sans-serif;
+}
+.font-escritura-a-mano {
+    font-family: 'Zhi Mang Xing';  
+    font-size: 24px;
+}
+/* zhi-mang-xing-regular - latin */
+@font-face {
+    font-family: 'Zhi Mang Xing';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/zhi-mang-xing-v7-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/zhi-mang-xing-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/zhi-mang-xing-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/zhi-mang-xing-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/zhi-mang-xing-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/zhi-mang-xing-v7-latin-regular.svg#ZhiMangXing') format('svg'); /* Legacy iOS */
+  }
