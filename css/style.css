@@ -25,6 +25,30 @@ h1{
     font-family: 'Zhi Mang Xing';  
     font-size: 24px;
 }
+p.font-42 {
+    font-size: 42px;
+    color: peru;
+    font-weight: bold;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+span.font-crazy {
+    font-weight: 900;
+    font-family: 'Kaushan Script';
+    font-size: 55px;
+    color: brown;
+}
+p {
+    font-size: 3em;
+}
+.color-darkcyan {
+    color: darkcyan;
+}
+.color-avianca {
+    color: rgb(255,8,20);
+}
+.color-linegreen {
+    color: #32cd32;
+}
 /* zhi-mang-xing-regular - latin */
 @font-face {
     font-family: 'Zhi Mang Xing';
