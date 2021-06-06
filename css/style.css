@@ -49,6 +49,21 @@ p {
 .color-linegreen {
     color: #32cd32;
 }
+.color-platzi {
+    color: rgb(18,31,61);
+}
+.color-platzi-2 {
+    color: rgb(191,11,255)
+}
+.spaciado-letras {
+    letter-spacing: 0.1em;
+}
+.espaciado-palabras {
+    word-spacing: 0.7em;
+}
+.espaciado-lineas {
+    line-height: 3em;
+}
 /* zhi-mang-xing-regular - latin */
 @font-face {
     font-family: 'Zhi Mang Xing';
