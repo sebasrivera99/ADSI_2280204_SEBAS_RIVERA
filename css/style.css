@@ -1,63 +1,12 @@
 h1{
     font-family: 'Courier New', Courier, monospace;    
 }
-.big-font {
-    font-size: 50px;
-}
-.fuente-normal {
-    font-weight: 400;
-}
-.fuente-negrita {
-    font-weight: bold;
-}
-.estilo-normal {
-    font-style: normal;
-}
-.estilo-italico {
-    font-style: italic;
-    font-weight: 900;
-    font-size: 40px;
-}
-.uente-pattallaf {
-    font-family: 'Pattaya', sans-serif;
-}
-.font-escritura-a-mano {
-    font-family: 'Zhi Mang Xing';  
-    font-size: 24px;
-}
-p.font-42 {
-    font-size: 42px;
-    color: peru;
-    font-weight: bold;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-}
-span.font-crazy {
-    font-weight: 900;
-    font-family: 'Kaushan Script';
-    font-size: 55px;
-    color: brown;
-}
 span.titulo-lista {
     font-weight: 900;
     font-size: 1.2em;
 }
 p {
     font-size: 3em;
-}
-.color-darkcyan {
-    color: darkcyan;
-}
-.color-avianca {
-    color: rgb(255,8,20);
-}
-.color-linegreen {
-    color: #32cd32;
-}
-.color-platzi {
-    color: rgb(18,31,61);
-}
-.color-platzi-2 {
-    color: rgb(191,11,255)
 }
 .spaciado-letras {
     letter-spacing: 0.1em;
@@ -68,16 +17,3 @@ p {
 .espaciado-lineas {
     line-height: 3em;
 }
-/* zhi-mang-xing-regular - latin */
-@font-face {
-    font-family: 'Zhi Mang Xing';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/zhi-mang-xing-v7-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/zhi-mang-xing-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/zhi-mang-xing-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/zhi-mang-xing-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/zhi-mang-xing-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/zhi-mang-xing-v7-latin-regular.svg#ZhiMangXing') format('svg'); /* Legacy iOS */
-  }
