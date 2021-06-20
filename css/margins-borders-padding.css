@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    font-size: 2.2em;
+
+}
+.texto-margenes {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 3em;
+    text-align: justify;
+    font-size: 1.5em;
+}

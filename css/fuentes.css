@@ -34,6 +34,15 @@ span.font-crazy {
     font-size: 55px;
     color: brown;
 }
+.espaciado-lineas {
+    line-height: 2em;
+}
+.spaciado-letras {
+    letter-spacing: 0.2em;
+}
+.espaciado-palabras {
+    word-spacing: 0.6em;
+}
 /* zhi-mang-xing-regular - latin */
 @font-face {
     font-family: 'Zhi Mang Xing';
