@@ -1,0 +1,28 @@
+body {
+    margin: 0 4em;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+p {
+    font-size: 0.9em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.img-catalogo {
+    display: inline;
+    margin-bottom: -1em;
+}
+div {
+    display: inline-block;
+    margin: 25px;
+    height: 200px;
+    width: 340px;
+}
