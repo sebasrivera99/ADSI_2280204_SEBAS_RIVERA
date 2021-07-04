@@ -5,10 +5,44 @@ h1 {
 }
 table {
     border-collapse: collapse;
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin: 0 auto;
 }
-td, th {
-    border: 1px solid rgb(64,64,64);
+td {
+    background-color: rgb(101, 148, 148);
+    border: 1px solid rgb(128, 170, 224);
     padding: 0.8em 1.5em;
+    text-align: center;
+}
+th {
+        border: 1px solid rgb(251, 252, 251);
+        color: rgb(29, 25, 25);   
+    }
+    .borde-titulo-camiseta {
+        background-color: rgb(0,0,139);
+    }
+    .borde-titulo-pantalon {
+        background-color: rgb(255,69,0);
+    }
+    .borde-titulo-zapatos {
+        background-color: rgb(128,0,128);
+    }
+    .borde-titulo-cinturon {
+        background-color: rgb(0,191,255);
+    }
+    .borde-titulo-chaqueta {
+        background-color: rgb(0,128,128);
+    }
+    .borde-titulo-camiseta,.borde-titulo-chaqueta,.borde-titulo-cinturon,
+    .borde-titulo-pantalon,.borde-titulo-zapatos {
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border: 1px solid white;
+    }
+.th-filmodas {
+    background-color: rgb(139,0,0);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
 }
