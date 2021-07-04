@@ -9,8 +9,8 @@ table {
     margin: 0 auto;
 }
 td {
-    background-color: rgb(101, 148, 148);
-    border: 1px solid rgb(128, 170, 224);
+    background-color: rgb(220,220,220);
+    border: 1px solid rgb(255, 255, 255);
     padding: 0.8em 1.5em;
     text-align: center;
 }
@@ -41,7 +41,37 @@ th {
         border: 1px solid white;
     }
 .th-filmodas {
-    background-color: rgb(139,0,0);
+    background-color: rgb(51, 170, 170);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.th-luk-Tam {
+    background-color: rgb(225,165,0);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.th-Sport {
+    background-color: rgb(187, 69, 15);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.th-ittle-stations {
+    background-color: rgb(14, 14, 128);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.th-like {
+    background-color: rgb(24, 148, 44);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+.th-mikos {
+    background-color: rgb(225, 0, 139);
     color: white;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px ;
