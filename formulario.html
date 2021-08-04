@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>Citas medicas</h1>
+    <form action="" method="get">
+        <fieldset>
+            <div class="formulario">
+               <label>Nombres</label><br>
+               <input type="text" name="Nombres"><br>
+               <label>Apellidos</label><br>
+               <input type="text" name="Apellidos"><br>
+               <label>Obserbaciones</label><br>
+               <textarea name="obserbaciones" cols="35" rows="5"></textarea><br>
+               <label>Seleccinar jornada</label><br>
+               <label><input type="checkbox" value="Mañana">Mañana</label><br>
+               <label><input type="checkbox" value="Tarde">Tarde</label><br>
+               <label><input type="checkbox" value="Noche">Noche</label><br><br>
+               <label>Selecione la IPS</label><br>
+               <label><input type="radio" name="Sede"value="Centro">IPS Centro</label><br>
+               <label><input type="radio" name="Sede"value="Sur">IPS Sur</label><br>
+               <label><input type="radio" name="Sede"value="Galindo">IPS Galindo</label><br><br>
+               <label>Medico</label><br>
+               <select name="Medico">
+                   <option value="Luiza_Ramirez"><label>Luisa Ramirez</label></option>
+                   <option value="Yeimi_Katerine"><label>Yeimi Peña</label></option>
+                   <option value="Omar_Lopez"><label>Oscar Omar Lopez</label></option>
+               </select><br><br>
+               <input type="submit" value="Enviar">
+           </div>
+        </fieldset>
+    </form>
+</body>
+</html>
