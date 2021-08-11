@@ -1,5 +1,35 @@
-.box-1, box-2, box-3, box-4 {
+.mein-box {
+    width: 909px;
+    display: block;
+    margin: 0 auto;
+}
+.mein-box1 {
     width: 300px;
-    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.mein-box2 {
+    width: 606px;
+    display: block;
+    margin: 0 auto;
+}
+.box-1, .box-2, .box-3 {
+    width: 260px;
+    height: 260px;
     background-color: darkcyan;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+}
+.box-2 {
+    background-color: rgb(20, 20, 20);
+}
+.box-3 {
+    background-color: rgb(128, 6, 121);
+}
+p {
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+   margin-top: 100px;
 }
