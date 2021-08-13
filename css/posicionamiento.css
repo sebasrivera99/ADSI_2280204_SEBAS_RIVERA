@@ -1,0 +1,57 @@
+.pos-static-1 {
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+    background-color: rgb(3, 94, 94);
+    color: white;
+    position: static;
+}
+.pos-relative-1 {
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+    background-color: goldenrod;
+    color: white;
+    position: relative;
+    left: 300px;
+}
+.pos-absolute-1, .pos-absolute-2, .pos-absolute-3 {
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+    background-color: darkolivegreen;
+    color: white;
+    position: absolute;
+    top: 70%;
+}
+.pos-absolute-1{
+    left: 40%;
+}
+.pos-absolute-2{
+    left: 60%;
+}
+.pos-absolute-3{
+    left: 80%;
+}
+.pos-fised-1 {
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}label {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
