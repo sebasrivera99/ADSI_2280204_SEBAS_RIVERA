@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(139,0,139);
+    transition: all .5s;
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+}
+li:hover .children  {
+    display: block;
+    position: absolute;
+    width: 100px;
+}
+.children li {
+    display: block;
+    background-color: rgb(120,0,120);
+    overflow: hidden;
+    color: whitesmoke;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+li .children {
+    display: none;
+    position: absolute;
+    top: 101%;
+}
