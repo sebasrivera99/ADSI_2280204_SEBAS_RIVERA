@@ -4,12 +4,12 @@
 }
 .menu-bar {
     display: none;
-    cursor: pointer;
+   /*  cursor: pointer; */
 }
 nav {
-    top: 0;
-    width: 100%;
+    /* top: 0; */
     background: #00B0BA;
+    width: 100%;
 }
 ul {
     list-style: none;
@@ -25,26 +25,27 @@ nav ul li:hover {
 nav ul li a {
     display:inline-block;
     color: rgb(37, 30, 30);
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-decoration: none;
     padding: 20px;
 }
-.childrem {
-    position: absolute;
+.children {
+    position:absolute;
     display: none;
     background:  #E7C582;
     text-align: left;
 }
-nav ul li:hover .childrem {
+nav ul li:hover .children {
     display: block;
     width: 130%;
     text-align: left;
 }
-nav ul li .childrem li {
+nav ul li .children li {
+    overflow: hidden;
     display: block;
     border-bottom: 1px solid rgb(37, 30, 30);
 }
-nav ul li .childrem li a {
+nav ul li .children li a {
     display: block;
 }
 .main-content {
@@ -57,29 +58,32 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 p {
-    text-align: justify;
-    font-size: 1.4em;
+    font-size: 1.3em;
     line-height: 1.4em;
+    text-align: justify;
 }
 .icon-chevron-small-down {
     float: right;
     position: relative;
     top: 3px;
+    padding-left: 5px;
 }
 @media only screen and (max-width: 680px) {
     body {
-        padding-top: 60px;
-    }
-    nav {
-        position: fixed;  
-        height: 100%;
-        width: 40%;
-        left: -100%;
-        overflow: scroll;
-        top: 13%;
+        padding-top: 68px;
     }
     h1 {
-         margin: 35px 0 35px 35px;
+        margin: 35px 0 35px 35px;
+   }
+    nav {
+        position: fixed;  
+        height: calc(100% -68px);
+        width: 40%;
+        left: -100%;
+      /*   overflow-x: hidden;
+        overflow-y: auto; */
+       /*  top: 13%; */
+       overflow: scroll;
     }
     nav ul li {
         display: block;
@@ -92,7 +96,7 @@ p {
         font-size: 20px;
         background-color: #C05780 ;
         width: 100%;
-        height: 13%;
+       /*  height: 13%; */
     }
     .menu-bar span {
        float: right;
@@ -108,7 +112,10 @@ p {
     nav ul li {
         display: block;
         border-bottom: 1px solid rgb(75, 77, 78);
-
+    }
+    nav ul .children {
+        position: relative;
+        width: 100%;
     }
     nav ul li:hover .children {
         display: none;
@@ -125,11 +132,12 @@ p {
         }
         nav {
             position: fixed;  
-            height: 100%;
+            height: calc(100% -68px);
             width: 40%;
             left: -100%;
-            overflow: scroll;
-            top: 13%;
+            overflow-x: hidden;
+            overflow-y: auto;
+           /*  top: 13%; */
         }
         h1 {
              margin: 35px 0 35px 35px;
@@ -161,6 +169,10 @@ p {
         nav ul li {
             display: block;
             border-bottom: 1px solid rgb(75, 77, 78);
+        }
+        nav ul .children {
+            position: relative;
+            width: 100%;
         }
         nav ul li:hover .children {
             display: none;
