@@ -8,6 +8,10 @@ h1 {
 }
 h2 {
     margin-left: 28px;
+    text-align: center;
+}
+.fuente {
+    color: black;
 }
 .container-style {
     background-color: dodgerblue;
@@ -25,4 +29,7 @@ h2 {
 }
 .row-style {
     margin-bottom: 30px;
+}
+.video {
+    margin-top: 15px;
 }
