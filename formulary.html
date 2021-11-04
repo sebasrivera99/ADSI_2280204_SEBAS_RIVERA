@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/formulary).css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="iconos/all.css">
+</head>
+<body>
+    <div class="main-container">
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-arrow-left"></i> <br></a> <br> </li>
+            <li>Registrar Usuario</li><br>
+            <li>Registrar Proveedor</li><br>
+            <li><a href="formulary.html">Facturacion</a> </li>
+        </ul>
+    </nav>
+    <div class="contenido-principal">
+    <h1>Facturación</h1><br>
+    <h3>Identificacion: Cc. 1061821721</h3>
+    <h3>Cliente:Sebastian Rivera Rivera</h3>
+    <h3>Direccion: Cll.8 No. 19-28</h3><br>
+    <div class="container ">
+        <div class="row ">
+            <div class="mb-3 col-4">
+                <label for="exampleFormControlInput1" class="form-label">Codigo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="098475844444">
+              </div>
+             
+            <div class="mb-4 col-2">
+                    <label for="exampleFormControlInput1" class="form-label">Stock</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="30">
+                  </div>    
+            <div class="mb-4 col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Fecha</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="01/11/2021">
+                  </div>   
+        </div>
+        <div class="row ">
+            <div class="mb-3 col-9">
+                <label for="exampleFormControlInput1" class="form-label">Descripción</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Barra de chocolate x 120grs">
+              </div>
+             
+            <div class="mb-4 col-3">
+                    <label for="exampleFormControlInput1" class="form-label">Cantidad</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="3">
+                  </div>   
+        </div>
+        <form class="row g-3">
+            <div class="col-5"></div>
+                <div class="col-3">
+                  <label for="inputPassword6" class="col-form-label ">Precio por unidad con IVA</label>
+                </div>
+                <div class="col-4">
+                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="$ 3.400">
+                 </div>
+        </form>
+        <br>
+        <form class="row g-3">
+            <div class="col-5"></div>
+                <div class="col-3">
+                  <label for="inputPassword6" class="col-form-label">Precio total con IVA </label>
+                </div>
+
+                <div class="col-4">
+                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="$ 10.200">
+                 </div>
+        </form>
+        <br>
+        <form class="row g-3">
+            <div class="col-5"></div>
+                <div class="col-3">
+                  <label for="inputPassword6" class="col-form-label valor-total"> <b> Valor total con IVA</b> </label>
+                </div>
+
+                <div class="col-4">
+                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="$ 10.200">b
+                 </div>
+        </form>  
+        <br><br>
+  <div class="container">
+      <div class="row row-style">
+          <div class="col-6"></div>
+          <div class="col-3">
+            <button type="button" class="btn btn-success btn-style"><i class="fas fa-shopping-cart" ></i><br> agregar al carrito</button>    
+        </div>
+        <div class="col-3">
+            <button type="button" class="btn btn-danger btn-style"><i class="fas fa-ban"></i> <br> Cancelar el producto</button>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
