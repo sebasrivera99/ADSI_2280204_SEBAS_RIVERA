@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(245, 175, 175);
+}
+li {
+    list-style: none;
+}
+a {
+    font-size: 1.6em;
+}
+.encabezado, .nav-bar, .img-principal, .cards{
+    color: white;
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 20px;
+    grid-template: "encabezado      nav-bar        nav-bar" 100px
+                    "img-principal  img-principal  img-principal" 350px
+                    "card-1         card-2         card-3" auto
+                    "card-4         card-5         card-6"auto;
+}
+.encabezado{
+grid-area: encabezado;
+}
+.nav-bar{
+    background-color: rgb(184, 204, 204);
+    grid-area: nav-bar;
+}
+.img-principal{
+    background-color: thistle;
+    grid-area: img-principal;
+}
+.card-1{
+    display: inline-block;
+    grid-area: card-1;
+    text-align: center;
+}
+.card-2{
+    grid-area: card-2;
+    display: inline-block;
+    text-align: center;
+}
+.card-3{
+    grid-area: card-3;
+    display: inline-block;
+    text-align: center;
+}
+.card-4{
+    grid-area: card-4;
+    display: inline-block;
+    text-align: center;
+}
+.card-5{
+    grid-area: card-5;
+    display: inline-block;
+    text-align: center;
+}
+.card-6{
+    grid-area: card-6;
+    display: inline-block;
+    text-align: center;
+} 
+@media (max-width:1340px){
+    .main-container{
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1200px;
+        gap: 20px;
+        grid-template: "encabezado      nav-bar        " 100px
+                        "img-principal  img-principal  " 350px
+                        "card-1         card-2         " auto
+                        "card-3         card-4         " auto
+                        "card-5         card-6         " auto;
+    }   
+    .card-1{
+        display: inline-block;
+        grid-area: card-1;
+        text-align: center;
+    }
+    .card-2{
+        grid-area: card-2;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-3{
+        grid-area: card-3;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-4{
+        grid-area: card-4;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-5{
+        grid-area: card-5;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-6{
+        grid-area: card-6;
+        display: inline-block;
+        text-align: center;
+}
+@media (max-width:990px){
+    .main-container{
+        display: grid;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1200px;
+        gap: 20px;
+        grid-template:  "encabezado    " 100px
+                        "nav-bar       " 100px
+                        "img-principal " 350px
+                        "card-1        " auto
+                        "card-2        " auto
+                        "card-3        " auto
+                        "card-4        " auto
+                        "card-5        " auto
+                        "card-6        " auto;
+    } 
+    .card-1{
+        display: inline-block;
+        grid-area: card-1;
+        text-align: center;
+    }
+    .card-2{
+        grid-area: card-2;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-3{
+        grid-area: card-3;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-4{
+        grid-area: card-4;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-5{
+        grid-area: card-5;
+        display: inline-block;
+        text-align: center;
+    }
+    .card-6{
+        grid-area: card-6;
+        display: inline-block;
+        text-align: center;
+     }
