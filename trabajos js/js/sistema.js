@@ -1,12 +1,3 @@
-var usuario = "sebastian";
-var contrasena = 123456789;
-var imputusuario = "sebastian";
-var imputcontrasena = 123456789;
-if(usuario===imputusuario && contrasena===imputcontrasena){
-    console.log("Bienvenido al sistema");
-}
-else{console.log("acceso denegado");
-}
 var precioAgua= 1000;
 var precioGaseosa=2000;
 var preciopan=500;
@@ -53,10 +44,10 @@ else{
     }
 
 
-var user_DB ="sebastianboop";
-var pass_DB ="12345";
-var imputUser_DB ="sebastianboop";
-var imputPass_DB ="12345";
+var user_DB ="sebastian";
+var pass_DB ="000000";
+var imputUser_DB ="sebastian";
+var imputPass_DB ="000000";
 
 console.log("=== sistema de validacion===");
 
