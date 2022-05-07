@@ -12,17 +12,18 @@
     <!--codigo legacy-->
 
     <a href="#" onclick="alert=('Hola')">Click</a>
-    <a href="javascript:void(0)" onclick="saludos('Bienvenidos');">Haga click</a>
+    <a href="javascript:void(0)" onclick="saludos('Bienvenidos');">Haga click</a> <br>
 
     <!--Formas de implementar llamados desde un boton-->
 
     <input type="button" value="click" onclick="agregarCarro()"> <br>
-    <button type="button"><img src="img/carro.png" onclick="agregarCarro()"></button> <br>
-    <img src="img/carro.png" onclick="agrgarCarro()">
+    <button type="button"><img width="100px" src="img/carro.png" onclick="agregarCarro()"></button> <br>
+    <img width="100px" src="img/carro.png" onclick="agregarCarro()"><br>
 
     <!--Elementos asociados a un mause-->
 
-    <img src="img/img1.jpg" onmouseover="src='img/img2.jpg'" >
+    <img src="img/img1.jpg" onmouseover="src='img/img2.webp'"
+    onmouseout="src='img/img1.jpg'" >
 
 
     <script src="js/script.js"></script>
@@ -30,6 +31,9 @@
 <script>
     function saludos(saludo) {
         alert(saludo)
+    }
+    function agregarCarro(){
+        alert("agregado")
     }
 </script>
 </html>
