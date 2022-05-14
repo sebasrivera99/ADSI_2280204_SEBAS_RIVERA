@@ -8,17 +8,34 @@
 </head>
 <body>
     <h3>Validacion si el usuario inicia informacion</h3>
-    <form onSubmit="validarInfo('numeroDocumento');">
+    <form onSubmit="validarInfo('numeroDocumento',
+    'nombreUsuario','edad','direccion');">
         <input type="text" id="numeroDocumento">
+        <input type="text" id="nombreUsuario">
+        <input type="text" id="edad">
+        <input type="text" id="direccion">
         <input type="submit" value="Enviar">
+        
     </form>
 
 </body>
   <script>
-      function validarInfo(numeroDocumento) {
+      function validarInfo(numeroDocumento,nombreUsuario,edad,direccion) {
         let texto = document.getElementById(numeroDocumento);
+        let usuario = document.getElementById(nombreUsuario);
+        let eda = document.getElementById(edad);
+        let dir = document.getElementById(direccion);
         if(texto.value === ""){
-            alert("Ingrese el documento");
+            alert("Ingrese su documento");
+        }
+        if (usuario.value === ""){
+            alert("Ingrese su nombre");
+        }
+        if (eda.value === ""){
+            alert("Ingrese su edad");
+        }
+        if (dir.value === ""){
+            alert("Ingrese su direccion");
         }
       }
   </script>

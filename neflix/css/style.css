@@ -4,19 +4,33 @@ padding: 0%;
 box-sizing: border-box;
 background-color: black;
 }
+p {
+    text-align: center;
+    color: white;
+}
+.texto {
+    display: block;
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+    color: aqua;
+}
 .imagen {
-    height: 270px;
+    height: 183px;
     cursor: pointer;
     margin-left: 10px;
 }
+
 .box-img-principal {
     display: block;
     display: flex;
     justify-content: right;
     width: 100%;
+    background-color: aquamarine;
 }
-.img-principal {
-    width: 900px;
+.img-pricipal {
+    width: 480px;
+
 }
 .cinta-movies {
     margin-top: 20px;
