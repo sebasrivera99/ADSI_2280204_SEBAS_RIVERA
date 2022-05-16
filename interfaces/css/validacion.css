@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 20%;
+    background-color: black;
+}
+h3 {
+  padding-top: 14px;
+}
+div {
+    background-color: rgb(182, 188, 188);
+   width: 400px;
+   height: auto;
+   border-radius: 20px;
+   text-align: center;
+   
+}
+table {
+    margin:auto;
+    padding-top: 5px;}
+
+input {
+    text-align: center;
+}
+.boton {
+    margin-bottom: 13px;
+    width: 100%;
+    color: aliceblue;
+    background-color: brown;
+}
+

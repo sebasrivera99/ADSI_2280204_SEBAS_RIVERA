@@ -4,39 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/validacion.css">
     <title>Validacion de usuarion</title>
 </head>
 <body>
-    <h3>Validacion si el usuario inicia informacion</h3>
+   
+    <div>
+        <h3>Validacion si el usuario inicia informacion</h3><br>
     <form onSubmit="validarInfo('numeroDocumento',
     'nombreUsuario','edad','direccion');">
-        <input type="text" id="numeroDocumento">
-        <input type="text" id="nombreUsuario">
-        <input type="text" id="edad">
-        <input type="text" id="direccion">
-        <input type="submit" value="Enviar">
+    <table>
+        <tr>
+            <td>Documento:</td>
+            <td>
+                <input type="number" id="numeroDocumento">
+            </td>
+        </tr>
+        <tr>
+            <td>Nombres:</td>
+            <td>
+                <input type="text" id="nombreUsuario">
+            </td>
+        </tr>
+        <tr>
+            <td>Edad:</td>
+            <td>
+                <input type="text" id="edad">
+            </td>
+        </tr>
+        <tr>
+            <td>Direccion:</td>
+            <td>
+                <input type="text" id="direccion">
+            </td>
+        </tr>
+    </table>  <br>
+        <input class="boton" type="submit" value="Enviar">
         
     </form>
-
+    </div>
+    <script src="js/script.js"></script>
 </body>
-  <script>
-      function validarInfo(numeroDocumento,nombreUsuario,edad,direccion) {
-        let texto = document.getElementById(numeroDocumento);
-        let usuario = document.getElementById(nombreUsuario);
-        let eda = document.getElementById(edad);
-        let dir = document.getElementById(direccion);
-        if(texto.value === ""){
-            alert("Ingrese su documento");
-        }
-        if (usuario.value === ""){
-            alert("Ingrese su nombre");
-        }
-        if (eda.value === ""){
-            alert("Ingrese su edad");
-        }
-        if (dir.value === ""){
-            alert("Ingrese su direccion");
-        }
-      }
-  </script>
 </html>
