@@ -5,5 +5,74 @@
 .main-content {
     display: grid;
     width: 100%;
-    background-color: darkcyan;
+    height: 250px;
+    background-color: rgb(210, 222, 222);
+    grid-template:"empty-top    empty-top     empty-top    empty-top"70px
+                  "empty-izq     img-moto       info        empty-der" auto /
+                  50px 200px      300px         1fr     ;
+}
+.img-moto {
+    grid-area: img-moto;
+    display: grid;
+    width: 100%;
+}
+.info {
+    grid-area: info;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 0.8em ;
+}
+.boton-numeros {
+    border: 1px solid rgb(67, 64, 64);
+    border-radius: 10px;
+    width: 130px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(135, 137, 137);
+    font-size: 1em;
+    color: whitesmoke;
+    display: flex;
+    margin-left: -160px;
+    margin-top: 200px;
+}
+.restar {
+    border-right: 1px solid rgb(67, 64, 64);
+    width: 43px;
+    height: 20px;
+    text-align: center;
+}
+.cantidad {
+    background-color: whitesmoke;
+    color: black;
+    width: 43px;
+    height: 20px;
+    text-align: center;
+}
+.sumar {
+    border-left: 1px solid rgb(67, 64, 64);
+    width: 43px;
+    height: 20px;
+    text-align: center;
+}
+.cantidad-elemento {
+    background-color: yellow;
+    width: 350px;
+    height: 25px;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+.mostrarTotal {
+    height: 20px;
+    width: 200px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.precio { 
+    font-size: 1.3em;
+}
+.parrafo {
+    font-size: 0.7em;
 }
