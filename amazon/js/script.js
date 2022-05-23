@@ -1,24 +1,33 @@
 "use stric"
 
-let cantidadGlobal = document.getElementById("cantidad").innerHTML = cantidad;
+let cantidadGlobal = document.getElementById("cantidad").innerHTML;
 
-function pruebaSuma() {
-   let cantidad =document.getElementById("cantidad").innerHTML;
-   cantidad =Number(cantidad) + 1;
-   document.getElementById("cantidad").innerHTML = cantidad;
+
+function resta() {
+    cantidadGlobal = Number(cantidadGlobal) - 1;
+    document.getElementById("cantidad").innerHTML = cantidadGlobal;
+    modificadorTotal();
+}
+function suma() {
+   cantidadGlobal = Number(cantidadGlobal) + 1;
+   document.getElementById("cantidad").innerHTML = cantidadGlobal;
+   
+
    modificadorTotal();
 }
 
 function modificadorTotal() {
     let cantidad = document.getElementById("cantidad").innerHTML;
     if(cantidad == "1") {
-        document.getElementById("cantidadSingularPlurar").innerHTML = cantidad + "Producto";
+        document.getElementById("cantidadSingularPlurar").innerHTML = cantidad + " Producto";
     }
     else {
-        document.getElementById("cantidadSingularPlurar").innerHTML = cantidad + "Productos";
+        document.getElementById("cantidadSingularPlurar").innerHTML = cantidad + " Productos";
     }
+    mostrarTotal();
 }
 function mostrarTotal() {
-    let costoTotal = 5000000 * Number(cantidad);
+    let costoUnitario = document.getElementById("costoUnitario").innerHTML
+    let costoTotal = Number(costoUnitario) * Number(cantidadGlobal);
     document.getElementById("costoTotal").innerHTML = costoTotal;
 }
