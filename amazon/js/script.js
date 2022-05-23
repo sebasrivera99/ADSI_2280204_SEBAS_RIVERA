@@ -4,9 +4,11 @@ let cantidadGlobal = document.getElementById("cantidad").innerHTML;
 
 
 function resta() {
+     if (cantidadGlobal >=1){
     cantidadGlobal = Number(cantidadGlobal) - 1;
     document.getElementById("cantidad").innerHTML = cantidadGlobal;
     modificadorTotal();
+}
 }
 function suma() {
    cantidadGlobal = Number(cantidadGlobal) + 1;
