@@ -10,13 +10,13 @@
 <body>
 
     <div class="main-content">
-        <div class="mostrarTotal">Cop <label class="precio" id="costoTotal();">$ 5'000.000</label></div>
-        <div class="cantidad-elemento">Proceder el pago<label id="cantidadSingularPlurar"> (1 producto)</label></div>
+        <div class="mostrarTotal">Cop. <label class="precio" id="costoTotal">$ 50000000</label></div>
+        <div class="cantidad-elemento">Proceder el pago <label id="cantidadSingularPlurar"> (1 producto)</label></div>
         <img class="img-moto" src="img/moto.png" alt="motos">
         <div class="boton-numeros">
-            <div class="restar">-</div>
+            <div class="restar" onclick="resta();"> -</div>
             <div id="cantidad" class="cantidad">1</div>
-            <div class="sumar" onclick="pruebaSuma();">+</div>
+            <div class="sumar" onclick="suma();">+</div>
         </div>
         <div class="info">Suzuki GSX-R125 2017 <p class="parrafo"> <br>Cilindrada exacta:	   124 cc <br>
             Tipo	              4 T<br>
@@ -25,7 +25,7 @@
             Alimentación	      Inyección electrónica<br>
             Refrigeración	       Líquida<br>
             Diámetro por carrera	62 mm x 41.2 mm
-            </p><br>cop <label class="precio" id="costoUnitario();">$ 5'000.000</label>
+            </p><br>cop $<label class="precio" id="costoUnitario"> 5000000</label>
 
         </div>
         

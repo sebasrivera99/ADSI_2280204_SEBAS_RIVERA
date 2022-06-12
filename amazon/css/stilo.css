@@ -27,6 +27,7 @@
     border-radius: 10px;
     width: 130px;
     height: 20px;
+    cursor: pointer;
     display: inline-block;
     background-color: rgb(135, 137, 137);
     font-size: 1em;
