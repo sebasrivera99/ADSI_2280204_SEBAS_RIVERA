@@ -1,0 +1,12 @@
+.mar-chica {
+    display: block;
+}
+.mar-chica-hidden {
+display: none;
+}
+.pimentel-chica {
+    display: none;
+}
+.pimentel-chica-hidden {
+    display: block;
+}
