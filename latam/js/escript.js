@@ -95,7 +95,7 @@ function definirJornada(horaEvento) {
         "duracionVueloStr": "1h 20Min",
         "origen": "BGT",
         "destino": "CTG",
-        "precio": 420000,
+        "precio": 1200000,
         "parada": "directo",
         "economico": "Primera clase"
     }];

@@ -13,18 +13,10 @@
 }
 .barraMenu{
 grid-area: barraMenu;
-margin: 15px 20px auto 20px;
+margin: 15px 20px auto 20px;/*aqui hay dudas*/
 font-size: 1.3em;
 font-weight: 400;
 cursor: pointer;
-}
-.carrito {
-grid-area: carrito;
-margin: 15px 50px auto 70px;
-font-size: 1.3em;
-font-weight: 400;
-cursor: pointer;
-align-content: center;
 }
 #textBuscador{
     grid-area: busqueda;
@@ -41,10 +33,12 @@ align-content: center;
 .carritoCompra{
     grid-area: carrito;
 }
+
+/* contenidos de busqueda*/
 .contenedorAbsoluto{
     display: block;
 }
-.contenido{
+#contenidoPrincipal{
     display: grid;
     padding: 20px;
     box-sizing: border-box;
@@ -52,14 +46,12 @@ align-content: center;
                     "img    precio "    25px
                     "img    year "      25px
                     "img    kilometraje"25px
-                    "img    ciudad     "25px
-                    "img    vacio     "auto/
+                    "img    ciudad     "25px/
                      6fr    8fr         ;
     margin-bottom: solid 1px black;
 }
 .img{
-    height: 300px;
-    width: 500px;
+    width: 100%;
     grid-area: img;
     border-bottom: 1px solid rgb(48,48,48,.2);
 }
